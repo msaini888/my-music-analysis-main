@@ -30,7 +30,8 @@ The data cleaning steps that are performed are:
 ## Exploratory Data Analysis
 
 A few of the visualizaton highlights are:
-![calplot](https://user-images.githubusercontent.com/36094150/126072660-27c2e153-d977-4f79-b07d-c2533da2105f.PNG)
+![calplot](https://user-images.githubusercontent.com/36094150/![streaming_history](https://github.com/Mohit020888/my-music-analysis-main/assets/63721227/b3ae2d94-203d-44ca-8871-92989ad44d81)
+126072660-27c2e153-d977-4f79-b07d-c2533da2105f.PNG)
 ![radar2](https://user-images.githubusercontent.com/36094150/126072676-13fa4c0b-1566-458e-a349-5362cd0dc8ce.PNG)
 
 ## Cluster Analysis
