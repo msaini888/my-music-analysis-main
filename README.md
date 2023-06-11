@@ -30,10 +30,10 @@ The data cleaning steps that are performed are:
 ## Exploratory Data Analysis
 
 A few of the visualizaton highlights are:
-![calplot](https://github.com/Mohit020888/my-music-analysis-main/assets/63721227/b3ae2d94-203d-44ca-8871-92989ad44d81)
-126072660-27c2e153-d977-4f79-b07d-c2533da2105f.PNG)
+![streaming_history](https://github.com/Mohit020888/my-music-analysis-main/assets/63721227/5b3cf1be-29e4-4184-91af-61d882b50328)
 
-![song_modes_distribution](https://github.com/Mohit020888/my-music-analysis-main/assets/63721227/d311056c-cb7d-4d42-9e08-a1d2e95c1582)
+![song_modes_distribution](https://github.com/Mohit020888/my-music-analysis-main/assets/63721227/6506fe88-eb75-4bfb-8bb2-7716d8ae2d3c)
+
 
 ## Cluster Analysis
 
@@ -46,7 +46,8 @@ Different cluster algorithms performed are:
 - BIRCH
 - DBSCAN
 - Mini-Batch Kmeans
-![clustering_kmeans](https://github.com/Mohit020888/my-music-analysis-main/assets/63721227/7df4686c-c944-40df-b1a1-a71d1d11c824)
+![clustering_kmeans](https://github.com/Mohit020888/my-music-analysis-main/assets/63721227/84cf37d5-2f95-4f58-a681-3d30bc754254)
+
 
 
 ## Blog Links
