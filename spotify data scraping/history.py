@@ -19,15 +19,15 @@ def get_token(user: str,
                                                client_secret=client_secret,
                                                redirect_uri=redirect_uri)
     return token
-abc='C:/Users/Admin/Downloads/my-music-analysis-main/my-music-analysis-main/spotify data scraping/MyData/'
-def get_streamings(path: str = abc, 
+
+#streamingPath = 'D:/Code_Repositories_Mohit/mohit_github_repos/my-music-analysis-main/spotify data scraping/my streaming data'
+def get_streamings(path: str = 'spotify data scraping/my streaming data/'
                 ) -> List[dict]:
     
     '''Returns a list of streamings form spotify MyData dump.
     Will not acquire track features.'''
     
-    files = [abc + x for x in listdir(path)
-             if x.split('.')[0][:-1] == 'StreamingHistory']
+    files = [path + x for x in listdir(path) if x.startswith('StreamingHistory')]
     
     all_streamings = []
     
