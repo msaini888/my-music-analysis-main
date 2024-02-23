@@ -20,6 +20,7 @@ def main():
     
     #getting a list of unique tracks in our history
     tracks = set([streaming['trackName'] for streaming in streamings])
+    print(tracks)
     print(f'Discovered {len(tracks)} unique tracks.')
     
     #getting saved ids for tracks
@@ -27,40 +28,22 @@ def main():
     
     #checking tracks that still miss idd
     tracks_missing_idd = len([track for track in tracks if track_ids.get(track) is None])
+    #track_names_to_query = [track for track, idd in track_ids.items() if idd is None]
     print(f'There are {tracks_missing_idd} tracks missing ID.')
     
-    if tracks_missing_idd > 0:
-        #using spotify API to recover track ids
-        #note: this methods works only for tracks. 
-        #podcasts and other items will be ignored.
-        print('Connecting to Spotify to recover tracks IDs.')
-        sleep(3)
-        for track, idd in track_ids.items(): 
-            if idd is None: 
-                try:
-                    found_idd = history.get_api_id(track, token)
-                    track_ids[track] = found_idd
-                    print(track, found_idd)
-                except:
-                    pass
-        
-        #how many tracks did we identify? 
-        identified_tracks = [track for track in track_ids
-                         if track_ids[track] is not None]
-        print(f'Successfully recovered the ID of {len(identified_tracks)} tracks.')
-        
-        #how many items did we fail to identify? 
-        n_tracks_without_id = len(track_ids) - len(identified_tracks)
-        print(f"Failed to identify {n_tracks_without_id} items. "
-              "However, some of these may not be tracks (e.g. podcasts).")
-        
-        #using pandas to save tracks ids (so we don't have to API them in the future)
-        ids_path = 'C:/Users/Admin/Downloads/my-music-analysis-main/my-music-analysis-main/spotify data scraping/output/track_ids.csv'
-        ids_dataframe = pd.DataFrame.from_dict(track_ids, 
-                                               orient = 'index')
-        ids_dataframe.to_csv(ids_path)
-        print(f'track ids saved to {ids_path}.')
-    
+    if tracks_missing_idd>0:
+        try:
+                track_id_dictionary = history.get_api_id(tracks, token)
+                track_ids.update(track_id_dictionary)
+                
+                for track, found_id in track_id_dictionary.items():
+                    print(track, found_id)
+        except Exception as e:
+                print(f"Error: {e}")
+                
+    ids_path = 'spotify data scraping/output/track_ids.csv'
+    ids_dataframe = pd.DataFrame.from_dict(track_ids, orient = 'index')
+    ids_dataframe.to_csv(ids_path)
     #recovering saved features
     track_features = history.get_saved_features(tracks)
     tracks_without_features = [track for track in tracks if track_features.get(track) is None]
