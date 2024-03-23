@@ -137,9 +137,14 @@ def get_api_id(track_name: str, token: str,
                 
                 for track_info in json.get('tracks', {}).get('items', []):
                     track_id = track_info.get('id')
-                    track_name4id =  track_info.get('name')
-                    if track_id:
-                       track_id_dictionary[track_name4id] =  track_id
+                    track_name =  track_info.get('name')
+                      # Check if track name already exists in the dictionary
+                    if track_name in track_id_dictionary:
+                       # If the track name exists, append the track ID to the existing list
+                       track_id_dictionary[track_name].append(track_id)
+                    else:
+                       # If the track name does not exist, create a new list with the track ID
+                       track_id_dictionary[track_name] = [track_id]
                 
         except Exception as e:
                print(f"Error in batch {batch_number + 1}: {e}")
