@@ -102,7 +102,7 @@ def get_api_id(track_name: str, token: str,
     batch_size = 50
     total_tracks = len(track_name)
     track_names_list = list(track_name)
-    track_ids = []
+    track_id_dictionary = {}
     # Calculate the number of batches needed
     num_batches = (total_tracks + batch_size - 1) // batch_size
 
@@ -121,7 +121,7 @@ def get_api_id(track_name: str, token: str,
                 headers = {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json',
-                'Authorization': f'Bearer ' + token,
+                'Authorization': f'Bearer ' + token ,
                 }
                 
                 params = [
@@ -137,12 +137,13 @@ def get_api_id(track_name: str, token: str,
                 
                 for track_info in json.get('tracks', {}).get('items', []):
                     track_id = track_info.get('id')
+                    track_name4id =  track_info.get('name')
                     if track_id:
-                       track_ids.append(track_id)
+                       track_id_dictionary[track_name4id] =  track_id
                 
         except Exception as e:
                print(f"Error in batch {batch_number + 1}: {e}")
-    return track_ids
+    return track_id_dictionary
    
     
     

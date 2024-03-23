@@ -25,22 +25,44 @@ def main():
     
     #getting saved ids for tracks
     track_ids = history.get_saved_ids(tracks)
-    
+    print(type(track_ids))
+    print(track_ids.items())
     #checking tracks that still miss idd
-    tracks_missing_idd = len([track for track in tracks if track_ids.get(track) is None])
+    #tracks_missing_idd = len([track for track in tracks if track_ids.get(track) is None])
     #track_names_to_query = [track for track, idd in track_ids.items() if idd is None]
-    print(f'There are {tracks_missing_idd} tracks missing ID.')
-    
-    if tracks_missing_idd>0:
+    # Initialize a set to store the song names with missing track IDs
+    tracks_missing_id = set(track_ids.keys())
+    print(f'There are {len(tracks_missing_id)} tracks missing ID.')
+
+    if (tracks_missing_id):
         try:
-                track_id_dictionary = history.get_api_id(tracks, token)
-                track_ids.update(track_id_dictionary)
-                
-                for track, found_id in track_id_dictionary.items():
-                    print(track, found_id)
+            track_id_dictionary = history.get_api_id(list(tracks_missing_id), token)
+            track_ids = track_id_dictionary
+            # Initialize an empty set to store unique track IDs
+            unique_track_ids = set()
+
+            # Iterate over the values (lists of track IDs) in the track_id_dictionary
+            for track_ids_list in track_id_dictionary.values():
+               # Add each track ID from the list to the set
+                unique_track_ids.update(track_ids_list)
+
+                # Now unique_track_ids contains all the unique track IDs
+                # Get the count of unique track IDs
+            unique_track_count = len(unique_track_ids)
+            print("Total unique track IDs:", unique_track_count)
+                    
+            # for song_name, track_id in track_id_dictionary.items():
+            #     if track_ids.get(song_name) is None:
+            #         track_ids[song_name] = track_id
+
+            #         # Update the set of tracks with missing IDs
+            # tracks_missing_id = {song_name for song_name, track_id in track_ids.items() if track_id is None}
+                    
+            print("Total IDs found:", len(track_id_dictionary))
+                    
         except Exception as e:
-                print(f"Error: {e}")
-                
+            print(f"Error: {e}")
+
     ids_path = 'spotify data scraping/output/track_ids.csv'
     ids_dataframe = pd.DataFrame.from_dict(track_ids, orient = 'index')
     ids_dataframe.to_csv(ids_path)
