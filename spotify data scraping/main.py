@@ -28,13 +28,13 @@ def main():
     print(type(track_ids))
     print(track_ids.items())
     #checking tracks that still miss idd
-    #tracks_missing_idd = len([track for track in tracks if track_ids.get(track) is None])
+    tracks_missing_idd = len([track for track in tracks if track_ids.get(track) is None])
     #track_names_to_query = [track for track, idd in track_ids.items() if idd is None]
     # Initialize a set to store the song names with missing track IDs
-    tracks_missing_id = set(track_ids.keys())
-    print(f'There are {len(tracks_missing_id)} tracks missing ID.')
+    #tracks_missing_id = set(track_ids.keys())
+    print(f'There are {len(tracks_missing_idd)} tracks missing ID.')
 
-    if (tracks_missing_id):
+    if (0):
         try:
             track_id_dictionary = history.get_api_id(list(tracks_missing_id), token)
             track_ids = track_id_dictionary
@@ -58,7 +58,7 @@ def main():
             #         # Update the set of tracks with missing IDs
             # tracks_missing_id = {song_name for song_name, track_id in track_ids.items() if track_id is None}
                     
-            print("Total IDs found:", len(track_id_dictionary))
+            #print("Total IDs found:", len(track_id_dictionary))
                     
         except Exception as e:
             print(f"Error: {e}")
@@ -70,7 +70,7 @@ def main():
     track_features = history.get_saved_features(tracks)
     tracks_without_features = [track for track in tracks if track_features.get(track) is None]
     print(f"There are still {len(tracks_without_features)} tracks without features.")
-    path = 'C:/Users/Admin/Downloads/my-music-analysis-main/my-music-analysis-main/spotify data scraping/output/features.csv'
+    path = 'spotify data scraping/output/features.csv'
     
     #connecting to spotify API to retrieve missing features
     if len (tracks_without_features):
