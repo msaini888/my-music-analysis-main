@@ -7,6 +7,7 @@ import spotipy
 import spotipy.util as util
 from os import listdir
 import pandas as pd
+import csv
 
 def get_token(user: str, 
               client_id: str,
@@ -169,29 +170,44 @@ def get_api_id(track_name: str, token: str,
 
 #track_csv_path = 'C:/Users/Admin/Downloads/my-music-analysis-main/my-music-analysis-main/spotify data scraping/output/track_ids.csv' 
        
-def get_saved_ids(tracks, path: str = 'spotify data scraping/output/track_ids.csv') -> dict:
-   
-    track_ids = {track: None for track in tracks}
-    #folder, filename = path.split('/')
-    #path = os.path.join(folder, filename)
-    folder = 'spotify data scraping/output/'
-    filename = 'track_ids.csv'
-    print(path)
-    if filename in os.listdir(folder):
-        try:
-            idd_dataframe = pd.read_csv('spotify data scraping/output/track_ids.csv', 
-                                     names = ['name', 'idd'])
-            idd_dataframe = idd_dataframe[1:]                    #removing first row
-            added_tracks = 0
-            for index, row in idd_dataframe.iterrows():
-                if not row[1] == 'nan':                          #if the id is not nan
-                    track_ids[row[0]] = row[1]                    #add the id to the dict
-                    added_tracks += 1
-            print(f'Saved IDs successfully recovered for {added_tracks} tracks.')
-        except:
-            print('Error. Failed to recover saved IDs!')
-            pass
-    return track_ids
+def get_saved_ids(tracks):
+  """
+  Reads track names and IDs from a CSV file where the first column is blank
+  and track IDs span across multiple columns (unknown number).
+  Returns a dictionary mapping track names to lists of track IDs.
+  """
+  total_track_ids = 0
+  track_ids = {}
+  with open('spotify data scraping/output/track_ids.csv', 'r', encoding='utf-8') as csvfile:
+    reader = csv.reader(csvfile)
+    
+    # Skip the blank first column
+    next(reader)
+
+    for row in reader:
+      track_name = row[0]
+      track_ids_list = []  # Store all track IDs for this song
+
+      # Iterate through all columns starting from the second (track name)
+      for col_index in range(1, len(row)):
+        track_id = row[col_index]
+        if track_id:  # Check if value is not empty
+          track_ids_list.append(track_id)
+          total_track_ids += 1
+
+      # Store the list of track IDs for the song
+      track_ids.setdefault(track_name, []).extend(track_ids_list)
+  print("Total Track IDs:", total_track_ids)
+  return track_ids
+
+
+
+
+
+
+
+
+          
     
 def get_api_features(track_id: str, token: str) -> dict:
     sp = spotipy.Spotify(auth=token)
