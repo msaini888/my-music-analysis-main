@@ -28,15 +28,21 @@ def main():
     print(type(track_ids))
     print(track_ids.items())
     #checking tracks that still miss idd
-    tracks_missing_idd = len([track for track in tracks if track_ids.get(track) is None])
+    #tracks_missing_idd = len([track for track in tracks if track_ids.get(track) is None])
+    
+    tracks_missing_ids =  [track for track in tracks if track_ids.get(track, [])]
+    if tracks_missing_ids:
+       print(f"\nMissing track IDs for: {', '.join(tracks_missing_ids)}")
+    else:
+       print("\nAll track IDs found for provided song names.")
     #track_names_to_query = [track for track, idd in track_ids.items() if idd is None]
     # Initialize a set to store the song names with missing track IDs
     #tracks_missing_id = set(track_ids.keys())
-    print(f'There are {len(tracks_missing_idd)} tracks missing ID.')
+    print(f'There are {len(tracks_missing_ids)} tracks missing ID.')
 
-    if (0):
+    if (len(tracks_missing_ids)>250):
         try:
-            track_id_dictionary = history.get_api_id(list(tracks_missing_id), token)
+            track_id_dictionary = history.get_api_id(list(tracks_missing_ids), token)
             track_ids = track_id_dictionary
             # Initialize an empty set to store unique track IDs
             unique_track_ids = set()
@@ -63,9 +69,9 @@ def main():
         except Exception as e:
             print(f"Error: {e}")
 
-    ids_path = 'spotify data scraping/output/track_ids.csv'
-    ids_dataframe = pd.DataFrame.from_dict(track_ids, orient = 'index')
-    ids_dataframe.to_csv(ids_path)
+        ids_path = 'spotify data scraping/output/track_ids.csv'
+        ids_dataframe = pd.DataFrame.from_dict(track_ids, orient = 'index')
+        ids_dataframe.to_csv(ids_path)
     #recovering saved features
     track_features = history.get_saved_features(tracks)
     tracks_without_features = [track for track in tracks if track_features.get(track) is None]
@@ -76,16 +82,10 @@ def main():
     if len (tracks_without_features):
         print('Connecting to Spotify to extract features...')
         acquired = 0
-        for track, idd in track_ids.items(): 
-            if idd is not None and track in tracks_without_features:
-                try:
-                    features = history.get_api_features(idd, token)
-                    track_features[track] = features
-                    if features:
-                        acquired += 1
-                        print(f'Acquired features: {track}. Total: {acquired}')
-                except:
-                    features = None
+        for track_name,track_id in track_ids.items():
+            features = history.get_api_features(track_id,token)
+            track_features[track_name] = features
+        
         tracks_without_features = [track for track in tracks if track_features.get(track) is None]
         print(f'Successfully recovered features of {acquired} tracks.')
         if len(tracks_without_features):
