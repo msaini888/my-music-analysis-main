@@ -82,9 +82,51 @@ def main():
     if len (tracks_without_features):
         print('Connecting to Spotify to extract features...')
         acquired = 0
-        for track_name,track_id in track_ids.items():
-            features = history.get_api_features(track_id,token)
-            track_features[track_name] = features
+        # for track_name,track_id in track_ids.items():
+        #     features = history.get_api_features(track_id,token)
+        #     track_features[track_name] = features
+        track_id_counter = 0
+        all_track_features = {}
+        max_feature_length = 0
+        # Extract track IDs while maintaining track names
+        tracking_ids = []  # Assuming this holds the dictionary with track names and IDs
+        for track_name, id_list in track_ids.items():
+            # Flatten multiple IDs into a single list
+            tracking_ids.extend(id_list)
+        
+        # Process IDs in batches of 100
+        for i in range(0, len(tracking_ids), 100):
+            batch_ids = tracking_ids[i:i+100]  # Slice a batch of IDs
+
+             # Call get_api_features to retrieve features
+            batch_features = history.get_api_features(batch_ids, token)
+ 
+             # Process each track's features within the batch
+            for track_data in batch_features:  # Assuming batch_features returns a list of dictionaries
+                if track_data is not None:
+                   try:
+                    # Access track ID safely
+                     track_id_inside_batch = track_data.get('id')  # Use get() to avoid potential KeyError
+                     track_id_counter += 1
+
+                    # Find matching track name (handle cases with no match)
+                     matching_track_names = [name for name, id_list in track_ids.items() if track_id_inside_batch in id_list]
+                     if len(matching_track_names) == 1:
+                       track_name = matching_track_names[0]
+                        # Check if track_name already exists (initialize empty list if not)
+                       if track_name not in all_track_features:
+                            all_track_features[track_name] = []
+                        # Update max_feature_length if necessary
+                       max_feature_length = max(max_feature_length, len(track_data))
+
+                       # Pad the list and append features (already using max_feature_length)
+                       all_track_features[track_name] = all_track_features[track_name] + [None] * (max_feature_length - len(all_track_features[track_name]))
+                       all_track_features[track_name].append(track_data)
+                    
+                     else:
+                      print(f"Warning: No matching track name found for ID {track_id_inside_batch}")
+                   except Exception as e:
+                      print(f"Error processing track features for ID {track_id_inside_batch}: {e}")
         
         tracks_without_features = [track for track in tracks if track_features.get(track) is None]
         print(f'Successfully recovered features of {acquired} tracks.')
@@ -92,7 +134,8 @@ def main():
             print(f'Failed to identify {len(tracks_without_features)} items. Some of these may not be tracks.')
         
         #saving features 
-        features_dataframe = pd.DataFrame(track_features).T
+        features_dataframe = pd.DataFrame(all_track_features).T
+        #features_dataframe = pd.DataFrame(all_track_features)
         features_dataframe.to_csv(path)
         print(f'Saved features to {path}.')
     

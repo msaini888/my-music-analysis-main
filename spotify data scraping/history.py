@@ -200,41 +200,14 @@ def get_saved_ids(tracks):
   print("Total Track IDs:", total_track_ids)
   return track_ids
 
-
-
-
-
-
-
-
-          
     
-def get_api_features(track_id , token: str) -> dict:
+def get_api_features(batch_id , token: str) -> dict:
     sp = spotipy.Spotify(auth=token)
     try:
-        track_id_string = ",".join(track_id)
-      
-        headers = {
-                   'Accept': 'application/json',
-                   'Content-Type': 'application/json',
-                   'Authorization': f'Bearer ' + token ,
-                  }
-                
-        params = [
-                  ('ids', track_id
-                  ),
-                  #('type', 'track'),
-                  #('limit', '50'),
-                  #('offset', '0')
-                 ]
-        response = requests.get("https://api.spotify.com/v1/audio-features", headers=headers, params=params)
-        json = response.json()
-        # Remove leading and trailing quotation marks (if they exist)
-        #track_id_string = track_id_string[1:-1]  # Slice from index 1 (excluding) to -1 (excluding)
-        features = sp.audio_features(tracks = track_id)
+        features = sp.audio_features(tracks = batch_id)
         return features
     except Exception as e :
-        print(f"Error in track feature retrieval {track_id}: {e}")
+        print(f"Error in track feature retrieval {batch_id}: {e}")
         return None
     
 #feature_path = 'C:/Users/Admin/Downloads/my-music-analysis-main/my-music-analysis-main/spotify data scraping/output/features.csv'   
