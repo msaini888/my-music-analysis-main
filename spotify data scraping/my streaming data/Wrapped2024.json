@@ -1,0 +1,133 @@
+{
+  "topArtists": {
+    "numUniqueArtists": 2112,
+    "topArtists": [
+      {
+        "artistUri": "spotify:artist:6EN5zX1Q2W7qcesyatdUfO"
+      },
+      {
+        "artistUri": "spotify:artist:4udXDlf1VbsKEaII28KQLt"
+      },
+      {
+        "artistUri": "spotify:artist:6MzHMxgYcbj6ue5w9pbNp9"
+      },
+      {
+        "artistUri": "spotify:artist:4TFmgYfhLJxF6nL8WDSnWV"
+      },
+      {
+        "artistUri": "spotify:artist:29osCpAsrEiHxE8t6khiJr"
+      }
+    ],
+    "topArtistMilliseconds": 60964801,
+    "topArtistFanPercentage": 0.005151492
+  },
+  "topPodcasts": {
+    "topPodcastsUri": [
+    ],
+    "topPodcastPercentage": 0.0,
+    "totalPodcastMilliseconds": 888988
+  },
+  "topTracks": {
+    "topTracks": [
+      "spotify:track:5Srwku4BGdJZgf2tGSaV04",
+      "spotify:track:1dmZYb5RwYyqtQzmrsH7O5",
+      "spotify:track:6rHdl6dbx0P19ieqmhwN2Q",
+      "spotify:track:70G0rxN6t88G7GvsyJYePg",
+      "spotify:track:0w8ORSX6vMlb3MrqoUlkrn"
+    ],
+    "topTrackPlayCount": 60,
+    "topTrackFirstPlayedDate": "2024-04-01",
+    "distinctTracksPlayed": 2749
+  },
+  "yearlyMetrics": {
+    "totalMsListened": 1633563221,
+    "mostListenedDay": "2024-03-01",
+    "mostListenedDayMinutes": 704.4382,
+    "percentGreaterThanWorldwideUsers": 87.33805
+  },
+  "musicEvolution": {
+    "eras": [
+      {
+        "key": "0",
+        "peakMonth": 1,
+        "color": "green",
+        "genre": "progressive house",
+        "mood": "hacker",
+        "descriptor": "vocal",
+        "pivotalArtists": [
+          "spotify:artist:6MzHMxgYcbj6ue5w9pbNp9",
+          "spotify:artist:2LRGIZMAT8HDCNQvMqgcFg",
+          "spotify:artist:2AYLgq9P1arichVXbNbjVy"
+        ],
+        "tracks": [
+          {
+            "trackName": "Timoycos - Morttagua Remix",
+            "trackUri": "spotify:track:1dmZYb5RwYyqtQzmrsH7O5"
+          },
+          {
+            "trackName": "Timoycos",
+            "trackUri": "spotify:track:32hYHkrkcWYual1T0zKV6Q"
+          },
+          {
+            "trackName": "Introduction - Anurag Nandvanshi Remix",
+            "trackUri": "spotify:track:0LdDQJyw8FgGbVMfCmStW5"
+          }
+        ]
+      },
+      {
+        "key": "1",
+        "peakMonth": 2,
+        "color": "red-blue",
+        "genre": "psychill",
+        "mood": "psychedelic",
+        "descriptor": "mid-tempo",
+        "pivotalArtists": [
+          "spotify:artist:6EN5zX1Q2W7qcesyatdUfO",
+          "spotify:artist:4TFmgYfhLJxF6nL8WDSnWV",
+          "spotify:artist:16N7BvvGgw3jvmXBSn0hVS"
+        ],
+        "tracks": [
+          {
+            "trackName": "Mos 6581 (Live Version)",
+            "trackUri": "spotify:track:6rHdl6dbx0P19ieqmhwN2Q"
+          },
+          {
+            "trackName": "One That Shows the Way - Somatoast Remix",
+            "trackUri": "spotify:track:0w8ORSX6vMlb3MrqoUlkrn"
+          },
+          {
+            "trackName": "Traversing the Endless Road - Nanosphere Remix",
+            "trackUri": "spotify:track:5d15L8VbxXapTbIAOuw1mc"
+          }
+        ]
+      },
+      {
+        "key": "2",
+        "peakMonth": 3,
+        "color": "red-blue",
+        "genre": "indian indie",
+        "mood": "post-apocalyptic",
+        "descriptor": "softcore",
+        "pivotalArtists": [
+          "spotify:artist:7qviR9RWRL1V3aM0yQ8V0D",
+          "spotify:artist:5KNQvpxpsSUsL8Mon7SjYn",
+          "spotify:artist:3tEJo0yjxFfLljtseITzVr"
+        ],
+        "tracks": [
+          {
+            "trackName": "Baithi Hai",
+            "trackUri": "spotify:track:0HBs3NUUS4qDOX6MAuNuG2"
+          },
+          {
+            "trackName": "Ek Zubani Tere Naam",
+            "trackUri": "spotify:track:4IWRi8ndYruVCTeRlyMcb7"
+          },
+          {
+            "trackName": "Ankhon Ke Saagar",
+            "trackUri": "spotify:track:3DnaAKpexBd35Jwdk63Go6"
+          }
+        ]
+      }
+    ]
+  }
+}

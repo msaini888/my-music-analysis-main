@@ -1,0 +1,2210 @@
+{
+  "stats": [
+    {
+      "date": "2025-07",
+      "streamCount": 858,
+      "secondsPlayed": 234665,
+      "topTracks": [
+        {
+          "name": "Mystic Tales - Jean Vayat Remix - Mixed",
+          "streamCount": 15,
+          "secondsPlayed": 4067
+        },
+        {
+          "name": "Protection",
+          "streamCount": 14,
+          "secondsPlayed": 2459
+        },
+        {
+          "name": "Ancient Groove Squad",
+          "streamCount": 10,
+          "secondsPlayed": 3668
+        },
+        {
+          "name": "A New Beginning - Feinheitsbrei Remix",
+          "streamCount": 10,
+          "secondsPlayed": 3178
+        },
+        {
+          "name": "The Wanderer",
+          "streamCount": 10,
+          "secondsPlayed": 1953
+        },
+        {
+          "name": "Tabu",
+          "streamCount": 9,
+          "secondsPlayed": 3857
+        },
+        {
+          "name": "Relax Shiva - Extended",
+          "streamCount": 8,
+          "secondsPlayed": 3377
+        },
+        {
+          "name": "Hamunaptra",
+          "streamCount": 8,
+          "secondsPlayed": 2897
+        },
+        {
+          "name": "Shadows",
+          "streamCount": 8,
+          "secondsPlayed": 2005
+        },
+        {
+          "name": "The Faded Line",
+          "streamCount": 7,
+          "secondsPlayed": 1946
+        }
+      ],
+      "topArtists": [
+        {
+          "name": "Shanti People",
+          "streamCount": 48,
+          "secondsPlayed": 12718
+        },
+        {
+          "name": "Jean Vayat",
+          "streamCount": 51,
+          "secondsPlayed": 15365
+        },
+        {
+          "name": "Stan Kolev",
+          "streamCount": 26,
+          "secondsPlayed": 8492
+        },
+        {
+          "name": "kośa records",
+          "streamCount": 20,
+          "secondsPlayed": 6820
+        },
+        {
+          "name": "U108",
+          "streamCount": 19,
+          "secondsPlayed": 4261
+        },
+        {
+          "name": "Saive",
+          "streamCount": 16,
+          "secondsPlayed": 4107
+        },
+        {
+          "name": "Desert Dwellers",
+          "streamCount": 16,
+          "secondsPlayed": 4728
+        },
+        {
+          "name": "Volen Sentir",
+          "streamCount": 11,
+          "secondsPlayed": 4238
+        },
+        {
+          "name": "Hvitling",
+          "streamCount": 10,
+          "secondsPlayed": 3178
+        },
+        {
+          "name": "KR3TURE",
+          "streamCount": 10,
+          "secondsPlayed": 1953
+        }
+      ],
+      "topGenres": [
+        {
+          "name": "organic house",
+          "streamCount": 56,
+          "secondsPlayed": 18364
+        },
+        {
+          "name": "psychill",
+          "streamCount": 56,
+          "secondsPlayed": 18142
+        },
+        {
+          "name": "psytrance",
+          "streamCount": 50,
+          "secondsPlayed": 17571
+        },
+        {
+          "name": "downtempo",
+          "streamCount": 57,
+          "secondsPlayed": 17252
+        },
+        {
+          "name": "progressive house",
+          "streamCount": 53,
+          "secondsPlayed": 16255
+        },
+        {
+          "name": "trance",
+          "streamCount": 43,
+          "secondsPlayed": 14328
+        },
+        {
+          "name": "techno",
+          "streamCount": 30,
+          "secondsPlayed": 12438
+        },
+        {
+          "name": "electronic",
+          "streamCount": 39,
+          "secondsPlayed": 10990
+        },
+        {
+          "name": "electronica",
+          "streamCount": 33,
+          "secondsPlayed": 8935
+        },
+        {
+          "name": "electro",
+          "streamCount": 26,
+          "secondsPlayed": 8748
+        }
+      ],
+      "timeOfDayStats": [
+        {
+          "period": "late_evening",
+          "secondsPlayed": 41036
+        },
+        {
+          "period": "afternoon",
+          "secondsPlayed": 9180
+        },
+        {
+          "period": "morning",
+          "secondsPlayed": 65659
+        },
+        {
+          "period": "evening",
+          "secondsPlayed": 50433
+        },
+        {
+          "period": "early_morning",
+          "secondsPlayed": 28552
+        },
+        {
+          "period": "night",
+          "secondsPlayed": 39772
+        }
+      ]
+    },
+    {
+      "date": "2025-06",
+      "streamCount": 1195,
+      "secondsPlayed": 318158,
+      "topTracks": [
+        {
+          "name": "Kamakshi Devi (Cosmic Dust Remix)",
+          "streamCount": 25,
+          "secondsPlayed": 8906
+        },
+        {
+          "name": "Hamunaptra",
+          "streamCount": 19,
+          "secondsPlayed": 7043
+        },
+        {
+          "name": "Chi - Mixed",
+          "streamCount": 18,
+          "secondsPlayed": 4470
+        },
+        {
+          "name": "Rama Rama - Jean Vayat Remix - Mixed",
+          "streamCount": 16,
+          "secondsPlayed": 4441
+        },
+        {
+          "name": "Nobody Goes - Kapchiz Remix",
+          "streamCount": 15,
+          "secondsPlayed": 4477
+        },
+        {
+          "name": "Rasme Zmune - Mixed",
+          "streamCount": 15,
+          "secondsPlayed": 4149
+        },
+        {
+          "name": "Shantaram - Mixed",
+          "streamCount": 14,
+          "secondsPlayed": 5030
+        },
+        {
+          "name": "Lost Tribes - Jean Vayat Remix - Mixed",
+          "streamCount": 14,
+          "secondsPlayed": 3425
+        },
+        {
+          "name": "Corvette - Mixed",
+          "streamCount": 13,
+          "secondsPlayed": 3966
+        },
+        {
+          "name": "Honey",
+          "streamCount": 13,
+          "secondsPlayed": 2465
+        }
+      ],
+      "topArtists": [
+        {
+          "name": "Jean Vayat",
+          "streamCount": 160,
+          "secondsPlayed": 46428
+        },
+        {
+          "name": "Kalya Scintilla",
+          "streamCount": 40,
+          "secondsPlayed": 13375
+        },
+        {
+          "name": "Stan Kolev",
+          "streamCount": 34,
+          "secondsPlayed": 12535
+        },
+        {
+          "name": "Volen Sentir",
+          "streamCount": 30,
+          "secondsPlayed": 11029
+        },
+        {
+          "name": "Shanti People",
+          "streamCount": 30,
+          "secondsPlayed": 8106
+        },
+        {
+          "name": "Sangeet",
+          "streamCount": 24,
+          "secondsPlayed": 6038
+        },
+        {
+          "name": "Desert Dwellers",
+          "streamCount": 24,
+          "secondsPlayed": 6414
+        },
+        {
+          "name": "Amir Telem",
+          "streamCount": 18,
+          "secondsPlayed": 4855
+        },
+        {
+          "name": "U108",
+          "streamCount": 19,
+          "secondsPlayed": 4143
+        },
+        {
+          "name": "Evelynka",
+          "streamCount": 17,
+          "secondsPlayed": 4923
+        }
+      ],
+      "topGenres": [
+        {
+          "name": "downtempo",
+          "streamCount": 309,
+          "secondsPlayed": 92137
+        },
+        {
+          "name": "psychill",
+          "streamCount": 177,
+          "secondsPlayed": 64317
+        },
+        {
+          "name": "progressive house",
+          "streamCount": 167,
+          "secondsPlayed": 59241
+        },
+        {
+          "name": "organic house",
+          "streamCount": 159,
+          "secondsPlayed": 53416
+        },
+        {
+          "name": "psydub",
+          "streamCount": 128,
+          "secondsPlayed": 51052
+        },
+        {
+          "name": "ambient",
+          "streamCount": 119,
+          "secondsPlayed": 36723
+        },
+        {
+          "name": "electronic",
+          "streamCount": 131,
+          "secondsPlayed": 34897
+        },
+        {
+          "name": "chill electronic",
+          "streamCount": 108,
+          "secondsPlayed": 32051
+        },
+        {
+          "name": "deep house",
+          "streamCount": 100,
+          "secondsPlayed": 25516
+        },
+        {
+          "name": "ambient chill",
+          "streamCount": 78,
+          "secondsPlayed": 24935
+        }
+      ],
+      "timeOfDayStats": [
+        {
+          "period": "late_evening",
+          "secondsPlayed": 82926
+        },
+        {
+          "period": "afternoon",
+          "secondsPlayed": 26313
+        },
+        {
+          "period": "morning",
+          "secondsPlayed": 61807
+        },
+        {
+          "period": "evening",
+          "secondsPlayed": 76018
+        },
+        {
+          "period": "early_morning",
+          "secondsPlayed": 19799
+        },
+        {
+          "period": "night",
+          "secondsPlayed": 51254
+        }
+      ]
+    },
+    {
+      "date": "2025-05",
+      "streamCount": 669,
+      "secondsPlayed": 164828,
+      "topTracks": [
+        {
+          "name": "Rafta Rafta Woh Mere - Lofi Flip",
+          "streamCount": 13,
+          "secondsPlayed": 1841
+        },
+        {
+          "name": "STFU",
+          "streamCount": 12,
+          "secondsPlayed": 1849
+        },
+        {
+          "name": "Kiss of Life",
+          "streamCount": 11,
+          "secondsPlayed": 2677
+        },
+        {
+          "name": "Jai Jai Jai",
+          "streamCount": 8,
+          "secondsPlayed": 2783
+        },
+        {
+          "name": "Cleo",
+          "streamCount": 7,
+          "secondsPlayed": 876
+        },
+        {
+          "name": "The Child In Us",
+          "streamCount": 7,
+          "secondsPlayed": 864
+        },
+        {
+          "name": "Blackbird SR-71",
+          "streamCount": 6,
+          "secondsPlayed": 1057
+        },
+        {
+          "name": "Kaal",
+          "streamCount": 5,
+          "secondsPlayed": 1433
+        },
+        {
+          "name": "Crystal Cloud",
+          "streamCount": 5,
+          "secondsPlayed": 1200
+        },
+        {
+          "name": "Ollie",
+          "streamCount": 5,
+          "secondsPlayed": 1039
+        }
+      ],
+      "topArtists": [
+        {
+          "name": "Stan Kolev",
+          "streamCount": 35,
+          "secondsPlayed": 11722
+        },
+        {
+          "name": "AP Dhillon",
+          "streamCount": 31,
+          "secondsPlayed": 4908
+        },
+        {
+          "name": "Sade",
+          "streamCount": 17,
+          "secondsPlayed": 4246
+        },
+        {
+          "name": "Mehdi Hassan",
+          "streamCount": 15,
+          "secondsPlayed": 2247
+        },
+        {
+          "name": "U108",
+          "streamCount": 14,
+          "secondsPlayed": 3474
+        },
+        {
+          "name": "Karan Aujla",
+          "streamCount": 14,
+          "secondsPlayed": 2547
+        },
+        {
+          "name": "Shanti People",
+          "streamCount": 19,
+          "secondsPlayed": 5775
+        },
+        {
+          "name": "Shubh",
+          "streamCount": 13,
+          "secondsPlayed": 2294
+        },
+        {
+          "name": "Diljit Dosanjh",
+          "streamCount": 12,
+          "secondsPlayed": 2190
+        },
+        {
+          "name": "Tryger",
+          "streamCount": 12,
+          "secondsPlayed": 3385
+        }
+      ],
+      "topGenres": [
+        {
+          "name": "progressive house",
+          "streamCount": 158,
+          "secondsPlayed": 50841
+        },
+        {
+          "name": "downtempo",
+          "streamCount": 127,
+          "secondsPlayed": 36243
+        },
+        {
+          "name": "melodic techno",
+          "streamCount": 75,
+          "secondsPlayed": 21308
+        },
+        {
+          "name": "electronic",
+          "streamCount": 75,
+          "secondsPlayed": 20015
+        },
+        {
+          "name": "psychill",
+          "streamCount": 67,
+          "secondsPlayed": 19192
+        },
+        {
+          "name": "deep house",
+          "streamCount": 67,
+          "secondsPlayed": 18588
+        },
+        {
+          "name": "techno",
+          "streamCount": 66,
+          "secondsPlayed": 17978
+        },
+        {
+          "name": "psydub",
+          "streamCount": 43,
+          "secondsPlayed": 13735
+        },
+        {
+          "name": "melodic house",
+          "streamCount": 48,
+          "secondsPlayed": 13395
+        },
+        {
+          "name": "organic house",
+          "streamCount": 40,
+          "secondsPlayed": 12904
+        }
+      ],
+      "timeOfDayStats": [
+        {
+          "period": "late_evening",
+          "secondsPlayed": 41426
+        },
+        {
+          "period": "afternoon",
+          "secondsPlayed": 28356
+        },
+        {
+          "period": "morning",
+          "secondsPlayed": 12850
+        },
+        {
+          "period": "evening",
+          "secondsPlayed": 29975
+        },
+        {
+          "period": "early_morning",
+          "secondsPlayed": 16196
+        },
+        {
+          "period": "night",
+          "secondsPlayed": 35998
+        }
+      ]
+    },
+    {
+      "date": "2025-04",
+      "streamCount": 510,
+      "secondsPlayed": 114359,
+      "topTracks": [
+        {
+          "name": "Jai Jai Jai",
+          "streamCount": 14,
+          "secondsPlayed": 4429
+        },
+        {
+          "name": "Brazilian Soul (feat. Sofi Tukker) - Acoustic Bossa Version",
+          "streamCount": 9,
+          "secondsPlayed": 1893
+        },
+        {
+          "name": "Mera Saaya Saath Hoga",
+          "streamCount": 6,
+          "secondsPlayed": 1713
+        },
+        {
+          "name": "Dreams Within a Dream - Nhii Remix",
+          "streamCount": 6,
+          "secondsPlayed": 1520
+        },
+        {
+          "name": "Bohemia",
+          "streamCount": 6,
+          "secondsPlayed": 1423
+        },
+        {
+          "name": "Mauro - Tantum Remix",
+          "streamCount": 6,
+          "secondsPlayed": 1029
+        },
+        {
+          "name": "U108",
+          "streamCount": 6,
+          "secondsPlayed": 864
+        },
+        {
+          "name": "Serpent in the Sand - Mixed",
+          "streamCount": 6,
+          "secondsPlayed": 457
+        },
+        {
+          "name": "The Power Plant - Bardeeya Remix",
+          "streamCount": 5,
+          "secondsPlayed": 1669
+        },
+        {
+          "name": "Pulse VI",
+          "streamCount": 5,
+          "secondsPlayed": 1287
+        }
+      ],
+      "topArtists": [
+        {
+          "name": "Stan Kolev",
+          "streamCount": 26,
+          "secondsPlayed": 8020
+        },
+        {
+          "name": "Desert Dwellers",
+          "streamCount": 24,
+          "secondsPlayed": 5815
+        },
+        {
+          "name": "U108",
+          "streamCount": 20,
+          "secondsPlayed": 4746
+        },
+        {
+          "name": "BEMET",
+          "streamCount": 17,
+          "secondsPlayed": 4975
+        },
+        {
+          "name": "Shanti People",
+          "streamCount": 24,
+          "secondsPlayed": 6748
+        },
+        {
+          "name": "The Knocks",
+          "streamCount": 9,
+          "secondsPlayed": 1893
+        },
+        {
+          "name": "Unusual Cosmic Process",
+          "streamCount": 8,
+          "secondsPlayed": 2743
+        },
+        {
+          "name": "Makebo",
+          "streamCount": 7,
+          "secondsPlayed": 2641
+        },
+        {
+          "name": "Betsy",
+          "streamCount": 9,
+          "secondsPlayed": 897
+        },
+        {
+          "name": "Liquid Bloom",
+          "streamCount": 7,
+          "secondsPlayed": 2237
+        }
+      ],
+      "topGenres": [
+        {
+          "name": "downtempo",
+          "streamCount": 109,
+          "secondsPlayed": 32430
+        },
+        {
+          "name": "progressive house",
+          "streamCount": 88,
+          "secondsPlayed": 24540
+        },
+        {
+          "name": "psychill",
+          "streamCount": 61,
+          "secondsPlayed": 19257
+        },
+        {
+          "name": "techno",
+          "streamCount": 65,
+          "secondsPlayed": 16952
+        },
+        {
+          "name": "electronic",
+          "streamCount": 62,
+          "secondsPlayed": 16483
+        },
+        {
+          "name": "melodic techno",
+          "streamCount": 55,
+          "secondsPlayed": 14051
+        },
+        {
+          "name": "deep house",
+          "streamCount": 44,
+          "secondsPlayed": 11826
+        },
+        {
+          "name": "trance",
+          "streamCount": 31,
+          "secondsPlayed": 10114
+        },
+        {
+          "name": "organic house",
+          "streamCount": 30,
+          "secondsPlayed": 9836
+        },
+        {
+          "name": "psydub",
+          "streamCount": 32,
+          "secondsPlayed": 9423
+        }
+      ],
+      "timeOfDayStats": [
+        {
+          "period": "late_evening",
+          "secondsPlayed": 57316
+        },
+        {
+          "period": "afternoon",
+          "secondsPlayed": 14574
+        },
+        {
+          "period": "morning",
+          "secondsPlayed": 4075
+        },
+        {
+          "period": "evening",
+          "secondsPlayed": 10083
+        },
+        {
+          "period": "early_morning",
+          "secondsPlayed": 1437
+        },
+        {
+          "period": "night",
+          "secondsPlayed": 26861
+        }
+      ]
+    },
+    {
+      "date": "2025-03",
+      "streamCount": 392,
+      "secondsPlayed": 98205,
+      "topTracks": [
+        {
+          "name": "Mother",
+          "streamCount": 14,
+          "secondsPlayed": 5553
+        },
+        {
+          "name": "Brazilian Soul (feat. Sofi Tukker) - Acoustic Bossa Version",
+          "streamCount": 10,
+          "secondsPlayed": 2302
+        },
+        {
+          "name": "Ajna - Teklix Remix",
+          "streamCount": 9,
+          "secondsPlayed": 2570
+        },
+        {
+          "name": "Pulse VI",
+          "streamCount": 5,
+          "secondsPlayed": 1554
+        },
+        {
+          "name": "Mirage",
+          "streamCount": 5,
+          "secondsPlayed": 1322
+        },
+        {
+          "name": "Serpent in the Sand - Mixed",
+          "streamCount": 5,
+          "secondsPlayed": 1026
+        },
+        {
+          "name": "Replika - Stan Kolev Remix",
+          "streamCount": 5,
+          "secondsPlayed": 960
+        },
+        {
+          "name": "Aapna Hi Shehar",
+          "streamCount": 4,
+          "secondsPlayed": 674
+        },
+        {
+          "name": "Sparks",
+          "streamCount": 3,
+          "secondsPlayed": 1106
+        },
+        {
+          "name": "Step into Outer Space",
+          "streamCount": 3,
+          "secondsPlayed": 1006
+        }
+      ],
+      "topArtists": [
+        {
+          "name": "Stan Kolev",
+          "streamCount": 42,
+          "secondsPlayed": 13304
+        },
+        {
+          "name": "U108",
+          "streamCount": 23,
+          "secondsPlayed": 7586
+        },
+        {
+          "name": "Sacred Song",
+          "streamCount": 14,
+          "secondsPlayed": 5553
+        },
+        {
+          "name": "Kaya Project",
+          "streamCount": 15,
+          "secondsPlayed": 3240
+        },
+        {
+          "name": "The Knocks",
+          "streamCount": 10,
+          "secondsPlayed": 2302
+        },
+        {
+          "name": "Desert Dwellers",
+          "streamCount": 9,
+          "secondsPlayed": 2636
+        },
+        {
+          "name": "Teklix",
+          "streamCount": 14,
+          "secondsPlayed": 3544
+        },
+        {
+          "name": "Unusual Cosmic Process",
+          "streamCount": 8,
+          "secondsPlayed": 2709
+        },
+        {
+          "name": "Haze-M",
+          "streamCount": 9,
+          "secondsPlayed": 1222
+        },
+        {
+          "name": "Kerala Dust",
+          "streamCount": 7,
+          "secondsPlayed": 1685
+        }
+      ],
+      "topGenres": [
+        {
+          "name": "downtempo",
+          "streamCount": 112,
+          "secondsPlayed": 34803
+        },
+        {
+          "name": "psychill",
+          "streamCount": 77,
+          "secondsPlayed": 23504
+        },
+        {
+          "name": "progressive house",
+          "streamCount": 66,
+          "secondsPlayed": 20245
+        },
+        {
+          "name": "psydub",
+          "streamCount": 46,
+          "secondsPlayed": 13783
+        },
+        {
+          "name": "melodic techno",
+          "streamCount": 43,
+          "secondsPlayed": 12333
+        },
+        {
+          "name": "ambient",
+          "streamCount": 34,
+          "secondsPlayed": 10093
+        },
+        {
+          "name": "lounge",
+          "streamCount": 35,
+          "secondsPlayed": 9487
+        },
+        {
+          "name": "ambient chill",
+          "streamCount": 23,
+          "secondsPlayed": 6395
+        },
+        {
+          "name": "organic house",
+          "streamCount": 18,
+          "secondsPlayed": 6179
+        },
+        {
+          "name": "electronic",
+          "streamCount": 25,
+          "secondsPlayed": 5953
+        }
+      ],
+      "timeOfDayStats": [
+        {
+          "period": "late_evening",
+          "secondsPlayed": 18182
+        },
+        {
+          "period": "afternoon",
+          "secondsPlayed": 25679
+        },
+        {
+          "period": "morning",
+          "secondsPlayed": 8727
+        },
+        {
+          "period": "evening",
+          "secondsPlayed": 16897
+        },
+        {
+          "period": "early_morning",
+          "secondsPlayed": 4137
+        },
+        {
+          "period": "night",
+          "secondsPlayed": 24571
+        }
+      ]
+    },
+    {
+      "date": "2025-02",
+      "streamCount": 394,
+      "secondsPlayed": 111061,
+      "topTracks": [
+        {
+          "name": "Ahista Ahista",
+          "streamCount": 10,
+          "secondsPlayed": 1633
+        },
+        {
+          "name": "Brazilian Soul (feat. Sofi Tukker) - Acoustic Bossa Version",
+          "streamCount": 9,
+          "secondsPlayed": 1867
+        },
+        {
+          "name": "Launch",
+          "streamCount": 6,
+          "secondsPlayed": 2027
+        },
+        {
+          "name": "Pulse VI",
+          "streamCount": 6,
+          "secondsPlayed": 1666
+        },
+        {
+          "name": "Aapna Hi Shehar",
+          "streamCount": 6,
+          "secondsPlayed": 1056
+        },
+        {
+          "name": "can you?",
+          "streamCount": 6,
+          "secondsPlayed": 979
+        },
+        {
+          "name": "Mangalam - Teklix Remix",
+          "streamCount": 5,
+          "secondsPlayed": 1528
+        },
+        {
+          "name": "aftermath",
+          "streamCount": 5,
+          "secondsPlayed": 876
+        },
+        {
+          "name": "Step into Outer Space",
+          "streamCount": 4,
+          "secondsPlayed": 1454
+        },
+        {
+          "name": "Sparks",
+          "streamCount": 4,
+          "secondsPlayed": 1327
+        }
+      ],
+      "topArtists": [
+        {
+          "name": "Morttagua",
+          "streamCount": 61,
+          "secondsPlayed": 25825
+        },
+        {
+          "name": "Unusual Cosmic Process",
+          "streamCount": 15,
+          "secondsPlayed": 5088
+        },
+        {
+          "name": "Stan Kolev",
+          "streamCount": 15,
+          "secondsPlayed": 4840
+        },
+        {
+          "name": "U108",
+          "streamCount": 13,
+          "secondsPlayed": 3631
+        },
+        {
+          "name": "sudan",
+          "streamCount": 12,
+          "secondsPlayed": 1917
+        },
+        {
+          "name": "Kazinama",
+          "streamCount": 10,
+          "secondsPlayed": 1633
+        },
+        {
+          "name": "The Knocks",
+          "streamCount": 9,
+          "secondsPlayed": 1867
+        },
+        {
+          "name": "Kaya Project",
+          "streamCount": 9,
+          "secondsPlayed": 2399
+        },
+        {
+          "name": "Shanti People",
+          "streamCount": 7,
+          "secondsPlayed": 1953
+        },
+        {
+          "name": "Kerala Dust",
+          "streamCount": 6,
+          "secondsPlayed": 1666
+        }
+      ],
+      "topGenres": [
+        {
+          "name": "progressive house",
+          "streamCount": 85,
+          "secondsPlayed": 33872
+        },
+        {
+          "name": "downtempo",
+          "streamCount": 73,
+          "secondsPlayed": 25435
+        },
+        {
+          "name": "melodic techno",
+          "streamCount": 57,
+          "secondsPlayed": 23896
+        },
+        {
+          "name": "psychill",
+          "streamCount": 49,
+          "secondsPlayed": 19125
+        },
+        {
+          "name": "ambient",
+          "streamCount": 27,
+          "secondsPlayed": 9633
+        },
+        {
+          "name": "electronic",
+          "streamCount": 30,
+          "secondsPlayed": 9627
+        },
+        {
+          "name": "deep house",
+          "streamCount": 27,
+          "secondsPlayed": 8903
+        },
+        {
+          "name": "melodic house",
+          "streamCount": 22,
+          "secondsPlayed": 8020
+        },
+        {
+          "name": "psydub",
+          "streamCount": 23,
+          "secondsPlayed": 7700
+        },
+        {
+          "name": "techno",
+          "streamCount": 22,
+          "secondsPlayed": 7678
+        }
+      ],
+      "timeOfDayStats": [
+        {
+          "period": "late_evening",
+          "secondsPlayed": 19351
+        },
+        {
+          "period": "afternoon",
+          "secondsPlayed": 28998
+        },
+        {
+          "period": "morning",
+          "secondsPlayed": 13249
+        },
+        {
+          "period": "evening",
+          "secondsPlayed": 23901
+        },
+        {
+          "period": "early_morning",
+          "secondsPlayed": 4948
+        },
+        {
+          "period": "night",
+          "secondsPlayed": 20592
+        }
+      ]
+    },
+    {
+      "date": "2025-01",
+      "streamCount": 150,
+      "secondsPlayed": 32925,
+      "topTracks": [
+        {
+          "name": "Brazilian Soul (feat. Sofi Tukker) - Acoustic Bossa Version",
+          "streamCount": 6,
+          "secondsPlayed": 1262
+        },
+        {
+          "name": "Ahista Ahista",
+          "streamCount": 5,
+          "secondsPlayed": 827
+        },
+        {
+          "name": "Pulse VI",
+          "streamCount": 3,
+          "secondsPlayed": 916
+        },
+        {
+          "name": "Maine Dil Se Kaha",
+          "streamCount": 3,
+          "secondsPlayed": 402
+        },
+        {
+          "name": "What Could Have Been",
+          "streamCount": 3,
+          "secondsPlayed": 395
+        },
+        {
+          "name": "RAMA (feat. Shanti People)",
+          "streamCount": 3,
+          "secondsPlayed": 472
+        },
+        {
+          "name": "Om Ganesha (Scott Nice Remix)",
+          "streamCount": 2,
+          "secondsPlayed": 706
+        },
+        {
+          "name": "Ahir Bhairav",
+          "streamCount": 2,
+          "secondsPlayed": 654
+        },
+        {
+          "name": "Meharbaniyaan",
+          "streamCount": 2,
+          "secondsPlayed": 613
+        },
+        {
+          "name": "Are You There? - Remastered",
+          "streamCount": 2,
+          "secondsPlayed": 483
+        }
+      ],
+      "topArtists": [
+        {
+          "name": "Honeysuckle Weekends",
+          "streamCount": 12,
+          "secondsPlayed": 2855
+        },
+        {
+          "name": "Unusual Cosmic Process",
+          "streamCount": 6,
+          "secondsPlayed": 1571
+        },
+        {
+          "name": "The Knocks",
+          "streamCount": 6,
+          "secondsPlayed": 1262
+        },
+        {
+          "name": "Anathema",
+          "streamCount": 6,
+          "secondsPlayed": 1254
+        },
+        {
+          "name": "Kazinama",
+          "streamCount": 6,
+          "secondsPlayed": 1035
+        },
+        {
+          "name": "Kaya Project",
+          "streamCount": 4,
+          "secondsPlayed": 1023
+        },
+        {
+          "name": "Tali Muss",
+          "streamCount": 4,
+          "secondsPlayed": 751
+        },
+        {
+          "name": "Vibha Saraf",
+          "streamCount": 4,
+          "secondsPlayed": 922
+        },
+        {
+          "name": "Sofi Tukker",
+          "streamCount": 6,
+          "secondsPlayed": 1262
+        },
+        {
+          "name": "Mose",
+          "streamCount": 3,
+          "secondsPlayed": 981
+        }
+      ],
+      "topGenres": [
+        {
+          "name": "downtempo",
+          "streamCount": 21,
+          "secondsPlayed": 5803
+        },
+        {
+          "name": "psychill",
+          "streamCount": 15,
+          "secondsPlayed": 3966
+        },
+        {
+          "name": "progressive rock",
+          "streamCount": 12,
+          "secondsPlayed": 3746
+        },
+        {
+          "name": "progressive house",
+          "streamCount": 13,
+          "secondsPlayed": 3655
+        },
+        {
+          "name": "progressive metal",
+          "streamCount": 11,
+          "secondsPlayed": 3263
+        },
+        {
+          "name": "ambient",
+          "streamCount": 13,
+          "secondsPlayed": 3196
+        },
+        {
+          "name": "indian classical",
+          "streamCount": 12,
+          "secondsPlayed": 3068
+        },
+        {
+          "name": "melodic techno",
+          "streamCount": 10,
+          "secondsPlayed": 2844
+        },
+        {
+          "name": "lounge",
+          "streamCount": 12,
+          "secondsPlayed": 2818
+        }
+      ],
+      "timeOfDayStats": [
+        {
+          "period": "early_morning",
+          "secondsPlayed": 1135
+        },
+        {
+          "period": "late_evening",
+          "secondsPlayed": 2790
+        },
+        {
+          "period": "afternoon",
+          "secondsPlayed": 11941
+        },
+        {
+          "period": "morning",
+          "secondsPlayed": 11697
+        },
+        {
+          "period": "evening",
+          "secondsPlayed": 5357
+        }
+      ]
+    },
+    {
+      "date": "2024-12",
+      "streamCount": 686,
+      "secondsPlayed": 206958,
+      "topTracks": [
+        {
+          "name": "can you?",
+          "streamCount": 25,
+          "secondsPlayed": 4384
+        },
+        {
+          "name": "Bijlee",
+          "streamCount": 8,
+          "secondsPlayed": 2566
+        },
+        {
+          "name": "Timoycos",
+          "streamCount": 6,
+          "secondsPlayed": 2739
+        },
+        {
+          "name": "Timoycos - Morttagua Remix",
+          "streamCount": 6,
+          "secondsPlayed": 2323
+        },
+        {
+          "name": "Shiva",
+          "streamCount": 5,
+          "secondsPlayed": 2100
+        },
+        {
+          "name": "Dilagi",
+          "streamCount": 5,
+          "secondsPlayed": 1677
+        },
+        {
+          "name": "Defiance - Living Light Remix",
+          "streamCount": 5,
+          "secondsPlayed": 1301
+        },
+        {
+          "name": "aftermath",
+          "streamCount": 5,
+          "secondsPlayed": 885
+        },
+        {
+          "name": "dreaming",
+          "streamCount": 5,
+          "secondsPlayed": 832
+        },
+        {
+          "name": "Repetitions, Pt. 2",
+          "streamCount": 5,
+          "secondsPlayed": 706
+        }
+      ],
+      "topArtists": [
+        {
+          "name": "sudan",
+          "streamCount": 45,
+          "secondsPlayed": 7757
+        },
+        {
+          "name": "Stan Kolev",
+          "streamCount": 42,
+          "secondsPlayed": 15135
+        },
+        {
+          "name": "Desert Dwellers",
+          "streamCount": 16,
+          "secondsPlayed": 5770
+        },
+        {
+          "name": "U108",
+          "streamCount": 14,
+          "secondsPlayed": 3985
+        },
+        {
+          "name": "John Cosani",
+          "streamCount": 12,
+          "secondsPlayed": 5062
+        },
+        {
+          "name": "Bohemia",
+          "streamCount": 13,
+          "secondsPlayed": 3165
+        },
+        {
+          "name": "Anurag Nandvanshi",
+          "streamCount": 12,
+          "secondsPlayed": 3450
+        },
+        {
+          "name": "Kaya Project",
+          "streamCount": 13,
+          "secondsPlayed": 3959
+        },
+        {
+          "name": "Shanti People",
+          "streamCount": 13,
+          "secondsPlayed": 3123
+        },
+        {
+          "name": "Jean Vayat",
+          "streamCount": 10,
+          "secondsPlayed": 3640
+        }
+      ],
+      "topGenres": [
+        {
+          "name": "downtempo",
+          "streamCount": 179,
+          "secondsPlayed": 61308
+        },
+        {
+          "name": "psychill",
+          "streamCount": 150,
+          "secondsPlayed": 54640
+        },
+        {
+          "name": "progressive house",
+          "streamCount": 99,
+          "secondsPlayed": 39664
+        },
+        {
+          "name": "psydub",
+          "streamCount": 87,
+          "secondsPlayed": 32158
+        },
+        {
+          "name": "melodic techno",
+          "streamCount": 57,
+          "secondsPlayed": 25314
+        },
+        {
+          "name": "electronic",
+          "streamCount": 44,
+          "secondsPlayed": 14314
+        },
+        {
+          "name": "dub",
+          "streamCount": 37,
+          "secondsPlayed": 13713
+        },
+        {
+          "name": "techno",
+          "streamCount": 36,
+          "secondsPlayed": 13494
+        },
+        {
+          "name": "ambient chill",
+          "streamCount": 39,
+          "secondsPlayed": 13042
+        },
+        {
+          "name": "deep house",
+          "streamCount": 34,
+          "secondsPlayed": 12586
+        }
+      ],
+      "timeOfDayStats": [
+        {
+          "period": "late_evening",
+          "secondsPlayed": 31070
+        },
+        {
+          "period": "afternoon",
+          "secondsPlayed": 37458
+        },
+        {
+          "period": "morning",
+          "secondsPlayed": 26916
+        },
+        {
+          "period": "evening",
+          "secondsPlayed": 35581
+        },
+        {
+          "period": "early_morning",
+          "secondsPlayed": 15135
+        },
+        {
+          "period": "night",
+          "secondsPlayed": 60772
+        }
+      ]
+    },
+    {
+      "date": "2024-11",
+      "streamCount": 553,
+      "secondsPlayed": 160151,
+      "topTracks": [
+        {
+          "name": "Devaki",
+          "streamCount": 18,
+          "secondsPlayed": 6924
+        },
+        {
+          "name": "Silent Days",
+          "streamCount": 17,
+          "secondsPlayed": 3235
+        },
+        {
+          "name": "Dilagi",
+          "streamCount": 10,
+          "secondsPlayed": 3388
+        },
+        {
+          "name": "Clouds Above",
+          "streamCount": 8,
+          "secondsPlayed": 1692
+        },
+        {
+          "name": "RAMA (feat. Shanti People)",
+          "streamCount": 6,
+          "secondsPlayed": 1273
+        },
+        {
+          "name": "Analogue Sympathy",
+          "streamCount": 5,
+          "secondsPlayed": 1078
+        },
+        {
+          "name": "Moved Again",
+          "streamCount": 5,
+          "secondsPlayed": 1062
+        },
+        {
+          "name": "Savage Garden",
+          "streamCount": 4,
+          "secondsPlayed": 557
+        },
+        {
+          "name": "Pavitra",
+          "streamCount": 4,
+          "secondsPlayed": 1188
+        },
+        {
+          "name": "Hymns",
+          "streamCount": 4,
+          "secondsPlayed": 1014
+        }
+      ],
+      "topArtists": [
+        {
+          "name": "Anurag Nandvanshi",
+          "streamCount": 47,
+          "secondsPlayed": 17478
+        },
+        {
+          "name": "Anhad + Tanner",
+          "streamCount": 36,
+          "secondsPlayed": 7126
+        },
+        {
+          "name": "Shanti People",
+          "streamCount": 28,
+          "secondsPlayed": 7793
+        },
+        {
+          "name": "Kuba",
+          "streamCount": 18,
+          "secondsPlayed": 4993
+        },
+        {
+          "name": "U108",
+          "streamCount": 13,
+          "secondsPlayed": 4216
+        },
+        {
+          "name": "Giorgia Angiuli",
+          "streamCount": 10,
+          "secondsPlayed": 1918
+        },
+        {
+          "name": "Kaya Project",
+          "streamCount": 10,
+          "secondsPlayed": 2790
+        },
+        {
+          "name": "Akanksha Grover",
+          "streamCount": 17,
+          "secondsPlayed": 3235
+        },
+        {
+          "name": "Mose",
+          "streamCount": 11,
+          "secondsPlayed": 4444
+        },
+        {
+          "name": "Stan Kolev",
+          "streamCount": 8,
+          "secondsPlayed": 2949
+        }
+      ],
+      "topGenres": [
+        {
+          "name": "downtempo",
+          "streamCount": 121,
+          "secondsPlayed": 43334
+        },
+        {
+          "name": "psychill",
+          "streamCount": 94,
+          "secondsPlayed": 34882
+        },
+        {
+          "name": "psydub",
+          "streamCount": 55,
+          "secondsPlayed": 21330
+        },
+        {
+          "name": "progressive house",
+          "streamCount": 42,
+          "secondsPlayed": 16391
+        },
+        {
+          "name": "lounge",
+          "streamCount": 40,
+          "secondsPlayed": 14850
+        },
+        {
+          "name": "psytrance",
+          "streamCount": 30,
+          "secondsPlayed": 11209
+        },
+        {
+          "name": "electronic",
+          "streamCount": 34,
+          "secondsPlayed": 11119
+        },
+        {
+          "name": "ambient chill",
+          "streamCount": 32,
+          "secondsPlayed": 10089
+        },
+        {
+          "name": "trance",
+          "streamCount": 30,
+          "secondsPlayed": 9972
+        }
+      ],
+      "timeOfDayStats": [
+        {
+          "period": "late_evening",
+          "secondsPlayed": 13585
+        },
+        {
+          "period": "afternoon",
+          "secondsPlayed": 39503
+        },
+        {
+          "period": "morning",
+          "secondsPlayed": 24541
+        },
+        {
+          "period": "evening",
+          "secondsPlayed": 41365
+        },
+        {
+          "period": "early_morning",
+          "secondsPlayed": 10291
+        },
+        {
+          "period": "night",
+          "secondsPlayed": 30841
+        }
+      ]
+    },
+    {
+      "date": "2024-10",
+      "streamCount": 79,
+      "secondsPlayed": 19861,
+      "topTracks": [
+        {
+          "name": "The Finishing - Viken Arman Remix",
+          "streamCount": 3,
+          "secondsPlayed": 660
+        },
+        {
+          "name": "Defiance - Living Light Remix",
+          "streamCount": 2,
+          "secondsPlayed": 616
+        },
+        {
+          "name": "Purnamadah",
+          "streamCount": 2,
+          "secondsPlayed": 389
+        },
+        {
+          "name": "The Cosmic Connection - Original Mix",
+          "streamCount": 1,
+          "secondsPlayed": 425
+        },
+        {
+          "name": "Casimir Pulaski Day",
+          "streamCount": 1,
+          "secondsPlayed": 353
+        },
+        {
+          "name": "Liquid Grip",
+          "streamCount": 1,
+          "secondsPlayed": 392
+        },
+        {
+          "name": "So Long, Marianne",
+          "streamCount": 1,
+          "secondsPlayed": 340
+        },
+        {
+          "name": "Across The Threshold",
+          "streamCount": 1,
+          "secondsPlayed": 448
+        },
+        {
+          "name": "Rajas",
+          "streamCount": 1,
+          "secondsPlayed": 338
+        },
+        {
+          "name": "Our Dream World (Drumspyder Remix)",
+          "streamCount": 1,
+          "secondsPlayed": 331
+        }
+      ],
+      "topArtists": [
+        {
+          "name": "Sattyananda",
+          "streamCount": 7,
+          "secondsPlayed": 1820
+        },
+        {
+          "name": "Kaya Project",
+          "streamCount": 4,
+          "secondsPlayed": 961
+        },
+        {
+          "name": "Stavroz",
+          "streamCount": 3,
+          "secondsPlayed": 660
+        },
+        {
+          "name": "MI.LA",
+          "streamCount": 3,
+          "secondsPlayed": 575
+        },
+        {
+          "name": "John Cosani",
+          "streamCount": 3,
+          "secondsPlayed": 528
+        },
+        {
+          "name": "Liquid Bloom",
+          "streamCount": 2,
+          "secondsPlayed": 1331
+        },
+        {
+          "name": "Jean Vayat",
+          "streamCount": 2,
+          "secondsPlayed": 603
+        },
+        {
+          "name": "Shanti People",
+          "streamCount": 2,
+          "secondsPlayed": 550
+        },
+        {
+          "name": "Desert Dwellers",
+          "streamCount": 2,
+          "secondsPlayed": 471
+        },
+        {
+          "name": "Karan Verma",
+          "streamCount": 2,
+          "secondsPlayed": 443
+        }
+      ],
+      "topGenres": [
+        {
+          "name": "organic house",
+          "streamCount": 3,
+          "secondsPlayed": 575
+        },
+        {
+          "name": "downtempo",
+          "streamCount": 2,
+          "secondsPlayed": 323
+        }
+      ],
+      "timeOfDayStats": [
+      ]
+    },
+    {
+      "date": "2024-09",
+      "streamCount": 73,
+      "secondsPlayed": 17558,
+      "topTracks": [
+        {
+          "name": "Soul Motion",
+          "streamCount": 6,
+          "secondsPlayed": 2050
+        },
+        {
+          "name": "Sarvesham",
+          "streamCount": 2,
+          "secondsPlayed": 566
+        },
+        {
+          "name": "Lula",
+          "streamCount": 2,
+          "secondsPlayed": 541
+        },
+        {
+          "name": "Ami Je Tomar (Kiara's Scare)",
+          "streamCount": 2,
+          "secondsPlayed": 117
+        },
+        {
+          "name": "Nityananda",
+          "streamCount": 1,
+          "secondsPlayed": 420
+        },
+        {
+          "name": "Om Namo Bhagavate",
+          "streamCount": 1,
+          "secondsPlayed": 457
+        },
+        {
+          "name": "Into the Temple",
+          "streamCount": 1,
+          "secondsPlayed": 129
+        },
+        {
+          "name": "Kalkan - Extended Mix",
+          "streamCount": 1,
+          "secondsPlayed": 189
+        },
+        {
+          "name": "Radhe 54 - Mose Remix",
+          "streamCount": 1,
+          "secondsPlayed": 412
+        },
+        {
+          "name": "Om Ganesha (Scott Nice Remix)",
+          "streamCount": 1,
+          "secondsPlayed": 353
+        }
+      ],
+      "topArtists": [
+        {
+          "name": "Kaya Project",
+          "streamCount": 10,
+          "secondsPlayed": 2552
+        },
+        {
+          "name": "Suduaya",
+          "streamCount": 6,
+          "secondsPlayed": 2050
+        },
+        {
+          "name": "Shanti People",
+          "streamCount": 6,
+          "secondsPlayed": 1993
+        },
+        {
+          "name": "Desert Dwellers",
+          "streamCount": 5,
+          "secondsPlayed": 1229
+        },
+        {
+          "name": "Mose",
+          "streamCount": 3,
+          "secondsPlayed": 1465
+        },
+        {
+          "name": "Budajevo",
+          "streamCount": 3,
+          "secondsPlayed": 827
+        },
+        {
+          "name": "Maria Kai",
+          "streamCount": 6,
+          "secondsPlayed": 2050
+        },
+        {
+          "name": "Samskara",
+          "streamCount": 2,
+          "secondsPlayed": 566
+        },
+        {
+          "name": "Pritam",
+          "streamCount": 2,
+          "secondsPlayed": 117
+        },
+        {
+          "name": "MC YOGI",
+          "streamCount": 2,
+          "secondsPlayed": 346
+        }
+      ],
+      "topGenres": [
+      ],
+      "timeOfDayStats": [
+      ]
+    }
+  ],
+  "highlights": [
+    {
+      "date": "2025-08-10",
+      "highlightType": "FIRST_TO_DISCOVER",
+      "firstToDiscoverHighlight": {
+        "entity": "A Little More",
+        "country": "IN",
+        "position": 9115
+      }
+    },
+    {
+      "date": "2025-08-03",
+      "highlightType": "UNLIKE_COMBINATION",
+      "unlikeCombinationHighlight": {
+        "firstEntity": "Meta",
+        "secondEntity": "Sapphire (feat. Arijit Singh)"
+      }
+    },
+    {
+      "date": "2025-07-27",
+      "highlightType": "ON_REPEAT",
+      "onRepeatHighlight": {
+        "entity": "Relax Shiva - Extended",
+        "streamCount": 7
+      }
+    },
+    {
+      "date": "2025-07-20",
+      "highlightType": "STREAKS",
+      "streaksHighlight": {
+        "entity": "Mystic Tales - Jean Vayat Remix - Mixed",
+        "dayStreaks": 3
+      }
+    },
+    {
+      "date": "2025-07-13",
+      "highlightType": "UNLIKE_COMBINATION",
+      "unlikeCombinationHighlight": {
+        "firstEntity": "RAMBO TRAP",
+        "secondEntity": "Jerome Isma-Ae"
+      }
+    },
+    {
+      "date": "2025-07-06",
+      "highlightType": "TOP_LISTENER",
+      "topListenerHighlight": {
+        "entity": "The Wanderer",
+        "topPercentile": 0.009293419885116517
+      }
+    },
+    {
+      "date": "2025-07",
+      "highlightType": "TOP_LISTENER",
+      "topListenerHighlight": {
+        "entity": "Shanti People",
+        "topPercentile": 0.0045963043912428305
+      }
+    },
+    {
+      "date": "2025-06-29",
+      "highlightType": "MILESTONE",
+      "milestoneHighlight": {
+        "entity": "Kalya Scintilla",
+        "milestoneListeningSeconds": 12538
+      }
+    },
+    {
+      "date": "2025-06-22",
+      "highlightType": "STREAKS",
+      "streaksHighlight": {
+        "entity": "Jean Vayat",
+        "dayStreaks": 7
+      }
+    },
+    {
+      "date": "2025-06-15",
+      "highlightType": "PROPORTION_LISTENING_ENTITY",
+      "proportionListeningHighlight": {
+        "entity": "Jean Vayat",
+        "listeningPercentage": 43.31343790002931
+      }
+    },
+    {
+      "date": "2025-06-08",
+      "highlightType": "ON_REPEAT",
+      "onRepeatHighlight": {
+        "entity": "Nobody Goes - Kapchiz Remix",
+        "streamCount": 9
+      }
+    },
+    {
+      "date": "2025-06-01",
+      "highlightType": "TOP_LISTENER",
+      "topListenerHighlight": {
+        "entity": "Stan Kolev",
+        "topPercentile": 0.07627217553688143
+      }
+    },
+    {
+      "date": "2025-06",
+      "highlightType": "ON_THIS_PERIOD",
+      "onThisPeriodHighlight": {
+        "entity": "Defiance - Living Light Remix",
+        "nostalgiaPeriod": "YEAR",
+        "nostalgiaUnitsAgo": 1
+      }
+    },
+    {
+      "date": "2025-05-25",
+      "highlightType": "UNLIKE_COMBINATION",
+      "unlikeCombinationHighlight": {
+        "firstEntity": "Crystal Cloud",
+        "secondEntity": "Have You Ever Seen The Rain"
+      }
+    },
+    {
+      "date": "2025-05-18",
+      "highlightType": "STREAKS",
+      "streaksHighlight": {
+        "entity": "Rafta Rafta Woh Mere - Lofi Flip",
+        "dayStreaks": 5
+      }
+    },
+    {
+      "date": "2025-05-11",
+      "highlightType": "MILESTONE",
+      "multiEntityMilestoneHighlight": {
+        "entities": [
+          "Stan Kolev",
+          "Desert Dwellers",
+          "U108",
+          "Kiss of Life",
+          "Jai Jai Jai",
+          "Same Heart",
+          "STFU",
+          "Nous",
+          "Ganesha Namah - Original Mix"
+        ],
+        "milestoneListeningSeconds": 53615
+      }
+    },
+    {
+      "date": "2025-05-04",
+      "highlightType": "ON_THIS_PERIOD",
+      "onThisPeriodHighlight": {
+        "entity": "Heaven Can Wait",
+        "nostalgiaPeriod": "YEAR",
+        "nostalgiaUnitsAgo": 1
+      }
+    },
+    {
+      "date": "2025-05",
+      "highlightType": "FIRST_TO_DISCOVER",
+      "firstToDiscoverHighlight": {
+        "entity": "A Saucerful of Secrets - Unedited - Live at Pompeii - MCMLXXII - 2025 Mix",
+        "country": "IN",
+        "position": 447
+      }
+    },
+    {
+      "date": "2025-04-27",
+      "highlightType": "TOP_LISTENER",
+      "topListenerHighlight": {
+        "entity": "BEMET",
+        "topPercentile": 0.004273504273504274
+      }
+    },
+    {
+      "date": "2025-04-20",
+      "highlightType": "UNLIKE_COMBINATION",
+      "unlikeCombinationHighlight": {
+        "firstEntity": "Dreams Within a Dream - Nhii Remix",
+        "secondEntity": "Downers at Dusk"
+      }
+    },
+    {
+      "date": "2025-04-13",
+      "highlightType": "FIRST_TO_DISCOVER",
+      "firstToDiscoverHighlight": {
+        "entity": "That's What You Get",
+        "country": "IN",
+        "position": 8227
+      }
+    },
+    {
+      "date": "2025-04-06",
+      "highlightType": "ON_THIS_PERIOD",
+      "onThisPeriodHighlight": {
+        "entity": "Mos 6581 (Live Version)",
+        "nostalgiaPeriod": "YEAR",
+        "nostalgiaUnitsAgo": 1
+      }
+    },
+    {
+      "date": "2025-04",
+      "highlightType": "ON_REPEAT",
+      "onRepeatHighlight": {
+        "entity": "Jai Jai Jai",
+        "streamCount": 14
+      }
+    },
+    {
+      "date": "2025-03-30",
+      "highlightType": "STREAKS",
+      "streaksHighlight": {
+        "entity": "Stan Kolev",
+        "dayStreaks": 4
+      }
+    },
+    {
+      "date": "2025-03-23",
+      "highlightType": "TOP_LISTENER",
+      "topListenerHighlight": {
+        "entity": "Mother",
+        "topPercentile": 0.047058823529411764
+      }
+    },
+    {
+      "date": "2025-03-16",
+      "highlightType": "UNLIKE_COMBINATION",
+      "unlikeCombinationHighlight": {
+        "firstEntity": "Parlour Magic",
+        "secondEntity": "Raghu Dixit"
+      }
+    },
+    {
+      "date": "2025-03-09",
+      "highlightType": "ON_THIS_PERIOD",
+      "onThisPeriodHighlight": {
+        "entity": "Vayu",
+        "nostalgiaPeriod": "YEAR",
+        "nostalgiaUnitsAgo": 1
+      }
+    },
+    {
+      "date": "2025-03-02",
+      "highlightType": "MILESTONE",
+      "milestoneHighlight": {
+        "entity": "Morttagua",
+        "milestoneListeningSeconds": 23574
+      }
+    },
+    {
+      "date": "2025-03",
+      "highlightType": "ON_REPEAT",
+      "onRepeatHighlight": {
+        "entity": "Mother",
+        "streamCount": 14
+      }
+    },
+    {
+      "date": "2025-02-23",
+      "highlightType": "TOP_LISTENER",
+      "topListenerHighlight": {
+        "entity": "sudan",
+        "topPercentile": 0.11805555555555555
+      }
+    },
+    {
+      "date": "2025-02-16",
+      "highlightType": "FIRST_TO_DISCOVER",
+      "firstToDiscoverHighlight": {
+        "entity": "Tu Mile Dil Khile - Lofi Flip",
+        "country": "IN",
+        "position": 4636
+      }
+    },
+    {
+      "date": "2025-02-09",
+      "highlightType": "ON_THIS_PERIOD",
+      "onThisPeriodHighlight": {
+        "entity": "Caddo - Mixed",
+        "nostalgiaPeriod": "YEAR",
+        "nostalgiaUnitsAgo": 1
+      }
+    },
+    {
+      "date": "2025-02-02",
+      "highlightType": "ON_REPEAT",
+      "onRepeatHighlight": {
+        "entity": "Ahista Ahista",
+        "streamCount": 6
+      }
+    },
+    {
+      "date": "2025-02",
+      "highlightType": "PROPORTION_LISTENING_ENTITY",
+      "proportionListeningHighlight": {
+        "entity": "Morttagua",
+        "listeningPercentage": 23.252987097180828
+      }
+    },
+    {
+      "date": "2025-01-26",
+      "highlightType": "TOP_LISTENER",
+      "topListenerHighlight": {
+        "entity": "Tali Muss",
+        "topPercentile": 0.1775005031193399
+      }
+    }
+  ]
+}
